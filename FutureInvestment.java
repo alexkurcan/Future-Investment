@@ -29,7 +29,7 @@ public class FutureInvestment {
         // Table header
         System.out.println("Year   Value");
 
-        // Loops through the first t30 years
+        // Loops through the first 30 years
         for (int y = 1; y <= 30; y++) {
             double val = futureValue(amount, mRate, y); // calls method to calculate the future value
             System.out.println(y + "      " + val);
