@@ -21,7 +21,7 @@ public class FutureInvestment {
         System.out.print("Enter amount: "); // user input for starting investment amount
         double amount = input.nextDouble();
 
-        System.out.print("Enter annual rate (e.g., 9 for 9%): "); // user input for the rate
+        System.out.print("Enter annual rate: "); // user input for the rate
         double rate = input.nextDouble();
 
         // Converts the annual rate to monthly
